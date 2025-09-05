@@ -30,7 +30,6 @@ class Game():
         play_again = input("Would you like to play again? (y/n) ").lower()
 
         if play_again == 'y':
-            self.play = True
             self.turn = 'X'
             self.winner = None
             self.tie = False
